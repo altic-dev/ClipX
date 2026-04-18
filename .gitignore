@@ -29,3 +29,6 @@ build/
 
 # Keep only essential scripts
 docs/
+
+# Local SSH keys and config (do not commit)
+.ssh/
