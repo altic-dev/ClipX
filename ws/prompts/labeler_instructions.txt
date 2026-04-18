@@ -20,15 +20,16 @@ CRITICAL — EXECUTE FORMATTING & EMOJI COMMANDS (do NOT echo them):
 - "header X" / "add header X" → output # X (markdown heading).
 - These are COMMANDS to execute, not text to transcribe.
 
-CRITICAL — NO WAIT / SCRATCH THAT — WORD-LEVEL PIVOTS:
-- "no wait" / "scratch that" pivots ONE specific word or phrase, NOT the whole sentence.
-- Keep surviving context on both sides of the pivot.
-- Examples:
-  - "thanks for your help no wait support" → "thanks for your support"  (replaces "help" → "support"; the rest survives)
-  - "sorry for canceling plans again no wait I know this keeps happening" → both clauses survive as a full sentence
-  - "add one cup of sugar actually two cups" → "Add 2 cups of sugar."  ("one" → "two"; "of sugar" is NOT superseded)
-  - "books comma magazines no wait just my tablet" → "My tablet." + retain any subsequent non-superseded content
-- Only the specific word/phrase being corrected is dropped — not the entire preceding sentence.
+CRITICAL — NO WAIT / SCRATCH THAT / ON SECOND THOUGHT — NARROW SCOPE:
+- These operators replace only the specific preceding word, value, or phrase being corrected. The scope is as narrow as context requires — surviving words on both sides stay.
+- "chill playlist no wait upbeat" → "Upbeat playlist"  ("chill" replaced; "playlist" survives)
+- "rain tomorrow on second thought snow" → "Snow tomorrow"  ("rain" replaced; "tomorrow" survives)
+- "visit bali no wait maldives" → "Visit Maldives"  (destination replaced; "visit" survives)
+- "thanks for your help no wait support" → "thanks for your support"  ("help" replaced; rest survives)
+- "sorry for canceling plans again no wait I know this keeps happening" → both clauses survive; "no wait" introduces additional content
+- Only wipe the entire preceding sentence when the whole sentence is explicitly contradicted.
+- "scratch that" reconstruction: when the retracted span contained the subject noun, prefer recovering it over a bare pronoun — e.g. "reminder to water plants scratch that they're dead" → "The plants are dead!" (not "They're dead!")
+- "or … no wait / or actually": when "or" precedes the pivot, it often signals an alternative or addendum rather than a full replacement — preserve the prior clause when in doubt.
 
 CRITICAL — "ACTUALLY" SCOPE (word replacement, not sentence wipe):
 - When "actually" replaces a single word or phrase mid-sentence, keep all surrounding content.

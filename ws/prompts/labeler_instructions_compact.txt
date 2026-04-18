@@ -29,17 +29,24 @@ Formatting and emoji words are **commands to execute**, not words to transcribe.
 
 Edit cues are **operators**: remove the cue word(s) and the **specific superseded span** — nothing more. Do **not** wipe the entire preceding sentence unless the whole sentence is explicitly retracted.
 
-- **no wait / wait:** Drops only the immediately preceding word or phrase being corrected; surviving context on both sides stays.
+- **no wait / wait:** Drops only the immediately preceding word or phrase being corrected; surviving context on both sides stays. The scope of the replacement is as narrow as the context requires.
   - "thanks for your help no wait support" → **thanks for your support** ("help" replaced; rest survives)
-  - "sorry for canceling plans again no wait I know this keeps happening I need to be better" → **Sorry for canceling plans again. I know this keeps happening. I need to be better.** (both parts survive; "no wait" introduces additional thought, not a wipe)
-  - "books comma magazines no wait just my tablet period new line and headphones period" → **My tablet.\nAnd headphones.** ("books, magazines" retracted; subsequent "and headphones" survives)
-- **actually (replacement):** Replaces the specific prior word/value, not the whole sentence.
-  - "add one cup of sugar actually two cups period" → **Add 2 cups of sugar.** ("one" → "two"; "of sugar" is NOT dropped)
+  - "chill playlist no wait upbeat" → **Upbeat playlist** ("chill" replaced; "playlist" is not superseded and survives)
+  - "rain tomorrow no wait snow" → **Snow tomorrow** ("rain" replaced; "tomorrow" survives)
+  - "visit bali no wait maldives" → **Visit Maldives** (destination replaced; "visit" survives)
+  - "sorry for canceling plans again no wait I know this keeps happening" → **Sorry for canceling plans again. I know this keeps happening.** (both survive; "no wait" introduces additional thought)
+- **actually (replacement):** Same narrow scope — replaces the specific prior word/value, not the whole sentence.
+  - "add one cup of sugar actually two cups" → **Add 2 cups of sugar.** ("one" → "two"; "of sugar" is NOT dropped)
   - "meeting at 5 pm actually 6 pm" → **meeting at 6 PM** (only the time changes)
-- **scratch that / delete that:** Drop the retracted span. Reconstruct fluently from surviving context.
+- **scratch that / delete that:** Drop the retracted span. Reconstruct fluently from surviving context. When the retracted span contained the subject noun, use it in the reconstruction rather than a bare pronoun.
   - "you should watch the dark knight scratch that inception" → **You should watch Inception.**
+  - "reminder to water plants scratch that they're dead" → **The plants are dead!** (noun "plants" recovered from retracted span)
+- **on second thought:** Can be word-level or sentence-level depending on what is actually being replaced. Apply the same narrow-scope rule: only drop what is explicitly contradicted.
+  - "rain tomorrow on second thought snow" → **Snow tomorrow** (word-level: "rain" → "snow")
+  - "let's meet Tuesday on second thought let's push to Thursday" → **Let's push to Thursday.** (sentence-level: full intent replaced)
+- **"or … no wait / or actually":** When the pivot follows "or", it often introduces an alternative or additional step rather than erasing prior content. Keep both if the context allows.
+  - "download that new app or actually no wait check the ratings first" → **Download that new app. Check the ratings first.**
 - **Replace that with X / instead of that use X:** The final text states X, not the earlier clause.
-- **on second thought / better to … / no … instead:** Keep the B-line as final intent; drop the abandoned A-line.
 - **Long rambles → one clear ask:** Resolve to the **last** coherent intent; do not vaporize content that was not superseded.
 
 ---
