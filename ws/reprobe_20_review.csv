@@ -1,0 +1,29 @@
+#,verdict_think,verdict_nothink,user_input,gold,thinking_output,nothink_output
+0,FIXED,FIXED,dear john thanks for your help no wait support period,"Dear John, thanks for your support.","Dear John, thanks for your support.","Dear John, thanks for your support."
+1,SAME,SAME,hey don't forget soccer practice at 5 pm actually 6 pm period new line bring water bottle,"Don't forget soccer practice at 6 PM.
+Bring water bottle.","Hey, don't forget soccer practice at 6 PM.
+Bring water bottle.","Hey, don't forget soccer practice at 6 PM.
+Bring water bottle"
+2,FIXED,FIXED,add one cup of sugar actually two cups period,Add 2 cups of sugar.,Add 2 cups of sugar.,Add 2 cups of sugar.
+3,FIXED,FIXED,sorry for canceling plans again no wait I know this keeps happening I need to be better period,Sorry for canceling plans again. I know this keeps happening. I need to be better.,Sorry for canceling plans again. I know this keeps happening. I need to be better.,Sorry for canceling plans again. I know this keeps happening. I need to be better.
+4,WORSE,WORSE,congratulations on the promotion actually scratch that the engagement period add party emoji add ring emoji,Congratulations on your engagement! 🎉 💍,The engagement period 🎉💍,The engagement period 🎉 💍
+5,FIXED,FIXED,add party emoji happy Friday add party emoji no wait add sunglasses emoji,Happy Friday! 😎,🎉 happy Friday 😎,🎉 Happy Friday 😎
+6,SAME,SAME,books comma magazines no wait just my tablet period new line and headphones period,My tablet. Headphones.,"Books, my tablet.
+And headphones.","just my tablet.
+and headphones."
+7,FIXED,SAME,hey bold the part about john smith and header legal advice please um actually bullet point the main requirements,"Hey, **the part about John Smith**, and # Legal advice, actually - The main requirements","# Legal advice
+- Bold the part about **John Smith**
+- Actually bullet point the main requirements",Bullet point the main requirements.
+8,WORSE,WORSE,actually that was the worst day ever no wait add sob emoji,That was the worst day ever. 😭,😭,😭
+9,FIXED,FIXED,reminder to water plants scratch that they're dead exclamation mark,The plants are dead!,The plants are dead!,The plants are dead!
+10,SAME,SAME,um hey could you add bold to the header and make the list a bullet point section period,Could you add **bold** to the header and make the list a bullet point section.,"Hey, could you **add bold to the header** and make the list a bullet point section.","Hey, could you add bold to the header and make the list a bullet point section."
+11,FIXED,FIXED,good morning team uh quick reminder meeting at 10 am no wait 11 am period new room colon room 204 add building emoji,"Good morning team, quick reminder: meeting at 11 AM.
+The new room is room 204. 🏢",Good morning team. Quick reminder: meeting at 11 AM. New room: Room 204 🏢,Good morning team. Quick reminder: meeting at 11 AM. New room: Room 204 🏢
+12,FIXED,FIXED,um add bold to intro,**intro**,**intro**,**intro**
+13,WORSE,WORSE,uh i was thinking about planting some tomatoes in the backyard but actually wait no i think i want to do peppers instead because like the soil over there gets more sun you know and um scratch that actually i might do both,"I think I want to do peppers instead because the soil over there gets more sun, and I might do both.",I might do both.,
+14,FIXED,WORSE,hey so um i was gonna say **anxiety** but no wait actually it's more like **depression** you know,"Hey, I was going to say **anxiety**, but actually, it's more like **depression**.","Hey, I was gonna say anxiety but it's more like depression.",
+15,FIXED,FIXED,"uh, download that new app period or actually no wait check the ratings first comma","Download that new app. Wait, check the ratings first.",Download that new app. Check the ratings first.,Download that new app. Check the ratings first.
+16,FIXED,FIXED,um chill playlist actually no wait upbeat,Upbeat playlist,Upbeat playlist,Upbeat playlist
+17,FIXED,FIXED,rain tomorrow on second thought snow,Snow tomorrow,Snow tomorrow,Snow tomorrow.
+18,WORSE,WORSE,um hey can you summarize 1984 i mean animal farm no wait actually scratch that,um hey can you summarize 1984 i mean animal farm no wait actually scratch that,,
+19,FIXED,FIXED,uh visit bali no wait actually um scratch that maldives,Visit Maldives,Visit Maldives.,Visit Maldives.
