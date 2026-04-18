@@ -7,12 +7,61 @@ compare outputs, and swap in a new model. All scripts live in `~/ws/sft/` on the
 
 ## Server Access
 
+This project runs on a DGX station accessible via SSH. All training, data generation, and
+relabeling happens there. **You must SSH in before running any commands below.**
+
 ```
-Host:  global.stg.ga.launchpad.nvidia.com
-Port:  11122
-User:  bsubramaniam
-SSH:   ssh -p 11122 bsubramaniam@global.stg.ga.launchpad.nvidia.com
-Alias: ssh dgx-station   (configured in ~/.ssh/config)
+Host:     global.stg.ga.launchpad.nvidia.com
+Port:     11122
+User:     bsubramaniam
+Password: nvidia
+```
+
+### First-time SSH setup (from a new machine)
+
+```bash
+# Install sshpass if needed
+sudo apt-get install -y sshpass
+
+# Copy your SSH key to the server (one-time)
+sshpass -p "nvidia" ssh-copy-id -i ~/.ssh/id_rsa.pub -p 11122 -o StrictHostKeyChecking=no \
+  bsubramaniam@global.stg.ga.launchpad.nvidia.com
+
+# Add a convenient alias to ~/.ssh/config
+cat >> ~/.ssh/config << 'EOF'
+
+Host dgx-station
+    HostName global.stg.ga.launchpad.nvidia.com
+    User bsubramaniam
+    Port 11122
+    IdentityFile ~/.ssh/id_rsa
+    StrictHostKeyChecking no
+EOF
+
+# Test it
+ssh dgx-station "echo connected"
+```
+
+### If your key is already set up
+
+```bash
+ssh dgx-station
+# or
+ssh -p 11122 bsubramaniam@global.stg.ga.launchpad.nvidia.com
+```
+
+### Working directory on the server
+
+Everything lives under:
+```
+~/ws/sft/
+```
+
+Always start a session with:
+```bash
+ssh dgx-station
+cd ~/ws/sft
+source .venv/bin/activate
 ```
 
 ---
